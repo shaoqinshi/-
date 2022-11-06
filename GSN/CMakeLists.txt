@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.1)
+project(gaussNewton)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
+list( APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules )
+find_package(OpenCV REQUIRED)
+find_package(Ceres REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
+include_directories(${CERES_INCLUDE_DIRS})
+INCLUDE_DIRECTORIES("/usr/include/eigen3")
+
+add_executable(test1 Gauss-Newton.cpp)
+target_link_libraries(test1 ${OpenCV_LIBS} ${CERES_INCLUDE_LIBRARIES})

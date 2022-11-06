@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/heht/cpp/project/cpp_test/test.cpp
+iostream
+-
+stdlib.h
+-
+fstream
+-
+string
+-
+eigen3/Eigen/Core
+/home/heht/cpp/project/cpp_test/eigen3/Eigen/Core
+eigen3/Eigen/Jacobi
+/home/heht/cpp/project/cpp_test/eigen3/Eigen/Jacobi
+opencv2/core.hpp
+/home/heht/cpp/project/cpp_test/opencv2/core.hpp
+opencv2/highgui.hpp
+/home/heht/cpp/project/cpp_test/opencv2/highgui.hpp
+

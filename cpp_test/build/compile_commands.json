@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/heht/cpp/project/cpp_test/build",
+  "command": "/usr/bin/c++   -I/usr/include/eigen3 -isystem /usr/local/include/opencv  -g   -std=gnu++14 -o CMakeFiles/cpp_test.dir/test.cpp.o -c /home/heht/cpp/project/cpp_test/test.cpp",
+  "file": "/home/heht/cpp/project/cpp_test/test.cpp"
+}
+]
